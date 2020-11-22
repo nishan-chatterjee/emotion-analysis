@@ -5,6 +5,10 @@ Annotate instances of the dataset of reviews retrieved from drugs.com with Eckma
 Annotation Guidelines
 
 1) Annotate the emotion(s) of the author of the review
+	--> do not annotate bodily afflictions (and their presumed emotional affect)- only annotate
+	the emotional state as expressed linguistically
+	--> do not distinguish between emotions that come as a result of taking a drug and emotions
+	expressed toward the drug
 2) Identify any of the 6 emotions of Eckman's model (anger, fear, joy, surprise, disgust, sadness)
 3) If an emotion occurs, specify the intensity (low, normal, high)
 4) Each instance (taking the drug event) is split into two parts: before taking the drug, and after taking the drug
