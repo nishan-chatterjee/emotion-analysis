@@ -15,4 +15,7 @@ Annotation Guidelines
 5) Annotate a maximum of 2 emotions in both parts of an instance (if possible)
 	a) if 3 emotions are present, only annotate the 2 most prominent emotions
 	b) it may be possible that before or after are not mentioned; in this case leave it out
-6) Try to be aware of your overall annotations- beware of falling into patterns of annotation 
+6) Try to be aware of your overall annotations- beware of falling into patterns of annotation (Basically check if a lot of entries have very similar scores).
+
+Task 1:
+Annotate 15 random samples from the dataset and check annotation scores across annotators. If there isn't a correlation of (whatever value of similarity), re-evaluate/discuss Annotation Guidelines. Otherwise keep annotating.
