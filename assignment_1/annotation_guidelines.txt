@@ -11,6 +11,10 @@ Annotation Guidelines
 	expressed toward the drug
 2) Identify any of the 6 emotions of Eckman's model (anger, fear, joy, surprise, disgust, sadness)
 3) If an emotion occurs, specify the intensity (low, normal, high)
+	--> if terms like "very" occur with emotions (degree) then annotate high intensity
+	--> words like 'depressed' indicate strong sadness (high intensity)
+	--> if emotion implied, not specified explicitly, then low intensity
+	--> expected emotion, like 'happiness' when drug works, is to be annotated as 'medium'
 4) Each instance (taking the drug event) is split into two parts: before taking the drug, and after taking the drug
 5) Annotate a maximum of 2 emotions in both parts of an instance (if possible)
 	a) if 3 emotions are present, only annotate the 2 most prominent emotions
