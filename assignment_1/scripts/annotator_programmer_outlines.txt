@@ -1,0 +1,45 @@
+Things to identify while annotating:
+    
+    1.
+
+Ways to code this problem?
+
+    1. Parse the sentence and determine where the break point is: formulate the scene of how the patient felt before and after taking the drug.
+    2. If no conditional information is given on how they felt before taking the drug, assign closest sentiments of how they felt based on the conditional improvement they state.
+    3. If there is zero mention of how they felt after or before, then assign sentiment to the symptoms and how that generally makes a person feel.
+    4. Give different weights to 1, 2, and 3 and then add them up to formulate a general model of understanding.
+    5. Showcase emotions around a certain drug and project its sentiments into an emotional embedding space.
+
+
+1. Take the Personality Test
+2. Send the annotations to you - 50
+3. Do annotations 15+50
+4. Write code to calculate from file
+5. Check guidenlines from git
+
+
+
+Classes:
+
+Highest Priority (Non Negotiable):
+    1. Methods in Computational Linguistics                 - 12
+    2. Maths for Machine Learning                           - 3
+    3. Speech Recognition and Synthesis                     - 6
+    
+    4. Human Computer Interaction                           - 6
+    5. Deep Learning                                        - 6 
+    6. Introduction to Psycholinguistics                    - 3
+    7. Emotion Analysis                                     - 6 (Probably)
+    8. Language and Vision                                  - 3
+    9. Information Retrival and Text Technology             - 6
+    
+    10. Research Seminar                                    - 9
+    11. Statistical Dependancy Parsing                      - 6
+
+                                Summation                   - 12 + 9 + 36 + 9 = 66
+
+Maybe Drop:
+    1. Information Visualization and Visual Analytics       - 6
+
+Definitely Drop:
+    1. Introduction to Modern Cryptography                  - 6
