@@ -15,31 +15,4 @@ Ways to code this problem?
 2. Send the annotations to you - 50
 3. Do annotations 15+50
 4. Write code to calculate from file
-5. Check guidenlines from git
-
-
-
-Classes:
-
-Highest Priority (Non Negotiable):
-    1. Methods in Computational Linguistics                 - 12
-    2. Maths for Machine Learning                           - 3
-    3. Speech Recognition and Synthesis                     - 6
-    
-    4. Human Computer Interaction                           - 6
-    5. Deep Learning                                        - 6 
-    6. Introduction to Psycholinguistics                    - 3
-    7. Emotion Analysis                                     - 6 (Probably)
-    8. Language and Vision                                  - 3
-    9. Information Retrival and Text Technology             - 6
-    
-    10. Research Seminar                                    - 9
-    11. Statistical Dependancy Parsing                      - 6
-
-                                Summation                   - 12 + 9 + 36 + 9 = 66
-
-Maybe Drop:
-    1. Information Visualization and Visual Analytics       - 6
-
-Definitely Drop:
-    1. Introduction to Modern Cryptography                  - 6
+5. Check guidelines from git
