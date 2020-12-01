@@ -1,226 +1,145 @@
-# emotion-analysis
+Task Description {#sec:task}
+================
 
-**Description: Emotion Analysis of stuff?**
+Annotate instances of the UCI ML Drug Review dataset with Eckman’s 6
+fundamental emotions.\
+The dataset contains around 280 000 reviews of different drugs. Table
+[tab:example] below shows an example of an instance int the dataset:
 
-**List the relative path of the dataset:**
+[ht]
 
+<span> |c|c|c|c|c|c|c|</span> uniqueID & drugName & condition & review &
+rating & date & usefulCount\
+46775 & Sulindac & Pain &
 
-```python
-import os
-root_dir = "."
-file_set = []
+[x]<span>@c@c@</span>“I have taken this medication for 3 months,\
+and it is the first time in 5 years I have\
+been practicaly pain free!”
 
-for dir_, _, files in os.walk(root_dir):
-    for file_name in files:
-        if file_name.endswith(".csv"):
-            rel_dir = os.path.relpath(dir_, root_dir)
-            rel_file = os.path.join(rel_dir, file_name)
-            file_set.append("./" + str(rel_file))
-print(file_set)
-```
+& 9 & 13-Nov-08 & 23\
 
-    ['././dataframe.csv', './UCI_ML_Drug_Review_dataset/drugsComTest_raw.csv', './UCI_ML_Drug_Review_dataset/drugsComTrain_raw.csv']
+[tab:example]
 
+Setup {#sec:setup}
+=====
 
-**Load datasets**
+Initial steps {#ssec:init}
+-------------
 
+We first drew up a list of annotation guidelines, which we formulated
+having only read a few reviews and considering what the most interesting
+information in these reviews was. Seeing as the reviews center around
+some ailment that is treated by a drug, we thought it would be
+interesting to consider the aspect of time in our annotation, by
+dividing the event of taking the drug (the main point of all reviews)
+into a before and after section. We also at this point decided on
+Ekman’s 6 fundamental emotions as our model for annotation, and wanted
+to try annotate intensity levels (3) as well.\
 
-```python
-import pandas as pd
+Trial Run {#sec:trial}
+---------
 
-df_test = pd.read_csv("./UCI_ML_Drug_Review_dataset/drugsComTest_raw.csv")
-df_train = pd.read_csv("./UCI_ML_Drug_Review_dataset/drugsComTrain_raw.csv")
+Following this, we conducted a trial run of 15 annotations with our
+guidelines thus far, to see whether they would need to be revised before
+annotating a further 50 instances. We noticed that we mostly agreed on
+the instances of emotion present in the reviews, but agreed to a lesser
+extent on the degrees of intensity each emotion should be assigned. We
+revised this in our annotation guidelines to be more explicit. We also
+decided to not assume emotional states from bodily/physical conditions
+unless these were explicitly mentioned. Agreement results ($\kappa$) are
+mentioned in Section [sec:results].
 
-df_test.head()
-```
+Final Annotation Guidelines {#ssec:guide}
+---------------------------
 
+The following are the guidelines we used to annotate the 50 instances
+from our dataset. Items in blue were added after the trial run, upon
+revision of the guidelines.
 
+1.  Annotate emotions of the **reviewer**
 
+    -   Do not assume emotional states from bodily afflictions without
+        reviewer’s mention: only annotate the emotional state as
+        expressed linguistically
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+    -   Annotate emotions toward as well as resulting from drug
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+    -   Do not annotate your own emotional reactions to the review
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>uniqueID</th>
-      <th>drugName</th>
-      <th>condition</th>
-      <th>review</th>
-      <th>rating</th>
-      <th>date</th>
-      <th>usefulCount</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>163740</td>
-      <td>Mirtazapine</td>
-      <td>Depression</td>
-      <td>"I&amp;#039;ve tried a few antidepressants over th...</td>
-      <td>10</td>
-      <td>28-Feb-12</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>206473</td>
-      <td>Mesalamine</td>
-      <td>Crohn's Disease, Maintenance</td>
-      <td>"My son has Crohn&amp;#039;s disease and has done ...</td>
-      <td>8</td>
-      <td>17-May-09</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>159672</td>
-      <td>Bactrim</td>
-      <td>Urinary Tract Infection</td>
-      <td>"Quick reduction of symptoms"</td>
-      <td>9</td>
-      <td>29-Sep-17</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>39293</td>
-      <td>Contrave</td>
-      <td>Weight Loss</td>
-      <td>"Contrave combines drugs that were used for al...</td>
-      <td>9</td>
-      <td>5-Mar-17</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>97768</td>
-      <td>Cyclafem 1 / 35</td>
-      <td>Birth Control</td>
-      <td>"I have been on this birth control for one cyc...</td>
-      <td>9</td>
-      <td>22-Oct-15</td>
-      <td>4</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+2.  Use Ekman’s 6 fundamental emotions for annotation
 
+    -   Anger, Fear, Joy, Sadness, Surprise, Disgust
 
+3.  If an emotion occurs, identify its intensity (low, normal, high)
 
-**Create Random List of 15 to start annotation**
+    -   If emotion implied (not explicitly): low intensity
 
+    -   Expected emotion like ’Joy’ when drug works: normal intensity
 
-```python
-random_list = df_test.sample(n=15)
-random_list.to_csv (r'seed_test_dataset.csv', index = False, header=True)
-random_list.head()
-```
+    -   Intensifiers (e.g. “very” or “devastated”): high intensity
 
+4.  Each instance (event of taking drug) has 2 parts: before and after
+    the event
 
+5.  Annotate a maximum of 2 emotions in both parts of an instance
 
+    -   If 3 present, only annotate the 2 most prominent emotions
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+    -   If before/after event not mentioned, leave it blank
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+6.  Check yourself.
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>uniqueID</th>
-      <th>drugName</th>
-      <th>condition</th>
-      <th>review</th>
-      <th>rating</th>
-      <th>date</th>
-      <th>usefulCount</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>6908</th>
-      <td>32104</td>
-      <td>Wellbutrin XL</td>
-      <td>Major Depressive Disorde</td>
-      <td>"Helped better than any other antidepressant I...</td>
-      <td>6</td>
-      <td>4-Nov-14</td>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>21896</th>
-      <td>224119</td>
-      <td>Budesonide</td>
-      <td>Asthma, Maintenance</td>
-      <td>"I have developed irritation of the throat and...</td>
-      <td>2</td>
-      <td>15-Sep-11</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>51002</th>
-      <td>28132</td>
-      <td>Lexapro</td>
-      <td>Generalized Anxiety Disorde</td>
-      <td>"Ok so a bit of backstory. I have had anxiety ...</td>
-      <td>7</td>
-      <td>4-Sep-15</td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <th>53023</th>
-      <td>26323</td>
-      <td>Sprintec</td>
-      <td>Endometriosis</td>
-      <td>"I just start this pills this month and start ...</td>
-      <td>6</td>
-      <td>26-Dec-15</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>10294</th>
-      <td>165354</td>
-      <td>Ethinyl estradiol / folic acid / levonorgestrel</td>
-      <td>Birth Control</td>
-      <td>"There are few good things with this birth con...</td>
-      <td>7</td>
-      <td>25-Mar-15</td>
-      <td>5</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    -   Take a break if you feel fatigued
 
+    -   If you are annotating patters (lots of sadness, lots of anger)
+        take a step back and re-evaluate
 
+Results {#sec:results}
+=======
 
-**Annotation Guidelines**
+Table [tab:res] shows the agreement calculated between the two
+annotators using Cohen’s kappa ($\kappa$).\
+The agreement scores for the trial run of 15 items range between “fair”
+and “moderate, while agreement on the main 50 items is slightly lower
+(only ”fair“).\
+Additionally, the $\kappa$ scores are generally lower when considering
+the degrees of intensity annotated for each emotion. When degrees of
+intensity are ignored and only occurrences of emotion annotated are
+counted, the agreement score rises to ”moderate". In our annotations,
+the degrees of intensity are clearly driving the agreement scores down
+and are therefore not really reliable.\
 
-**Link to Google Sheets For Annotation**
+[t!]
 
-**Nishan's Worksheet:** https://docs.google.com/spreadsheets/d/16etO8GdeQBuGnyusqhDqqGwotmn6T8p0INM7b_YBKBo/edit?usp=sharing
+                      Agreement w. degrees ($\kappa$)   Agreement w/o degrees ($\kappa$)
+  ------------------ --------------------------------- ----------------------------------
+   Trial (15 items)                0.317                             0.484
+   Main (50 items)                 0.288                             0.400
+    All (65 items)                 0.294                             0.419
 
-**Isabelle's Worksheet:** https://docs.google.com/spreadsheets/d/1a9KmTZwXzDtnM8xvJ3e7AY4ApfngiNC2ibohnTCP71U/edit?usp=sharing*
+[tab:res]
+
+[ ybar, enlargelimits=0.45, legend
+style=<span>at=<span>(0.5,-0.15)</span>, anchor=north,legend
+columns=-1</span>, ylabel=<span>frequency</span>, symbolic x
+coords=<span>Annotator1,Annotator2</span>, xtick=data, nodes near
+coords, nodes near coords align=<span>vertical</span>, ] coordinates
+<span>(Annotator1,12) (Annotator2,13)</span>; coordinates
+<span>(Annotator1,18) (Annotator2,9)</span>; coordinates
+<span>(Annotator1,44) (Annotator2,30)</span>; coordinates
+<span>(Annotator1,9) (Annotator2,12)</span>; coordinates
+<span>(Annotator1,26) (Annotator2,7)</span>; coordinates
+<span>(Annotator1,12) (Annotator2,5)</span>;
+
+[fig:barplot]
+
+Figure [fig:barplot] shows the overall emotions annotated by each
+annotator. This plot does not consider degrees of intensity annotated,
+only the frequency counts of emotions annotated in the reviews.\
+Annotator1 annotated emotions more frequently than Annotator2, as can be
+clearly seen for *Fear, Joy, Disgust* and *Surprise*. The discussion in
+Section [sec:disc] will look at reasons that may have brought this
+about.
+
+Discussion {#sec:disc}
+==========
