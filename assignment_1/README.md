@@ -5,7 +5,7 @@ Annotate instances of the UCI ML Drug Review dataset with Eckman’s 6
 fundamental emotions.\
 The dataset contains around 280 000 reviews of different drugs. The table below shows an example of an instance int the dataset:
 
-![Table showing instance](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/instance.png)
+![Table showing instance](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/assignment_1/instance.png)
 
 
 Setup
@@ -98,8 +98,8 @@ the degrees of intensity are clearly driving the agreement scores down
 and are therefore not really reliable.\
 
 
-![Table showing results](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/resultsTab.png)
-![Table showing total emotions](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/totalEmotions.png)
+![Table showing results](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/assignment_1/resultsTab.png)
+![Table showing total emotions](https://github.com/nishan-chatterjee/emotion-analysis/blob/main/assignment_1/totalEmotions.png)
 
 Figure 1 shows the overall emotions annotated by each
 annotator. This plot does not consider degrees of intensity annotated,
