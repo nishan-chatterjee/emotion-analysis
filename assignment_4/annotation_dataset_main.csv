@@ -1,66 +1,61 @@
 uniqueID,drugName,condition,review,rating,date,usefulCount,sentence-count,word-count
-30457,Klonopin,Anxiety,"""They work well and don't cost as much.""",9,25-Nov-08,25,1,8
+157360,Iron polysaccharide,Iron Deficiency Anemia,"""It works great but it is so expensive.""",7,1-Mar-09,19,1,8
+15772,Ethinyl estradiol / norethindrone,Birth Control,"""it caused me to gain 30 pounds""",2,21-Sep-16,2,1,7
+221463,Dextromethorphan,Cough,"""Two hours after taking this had severe diarrhea.""",3,28-Sep-11,53,1,8
+117327,Di-Gel,Gas,"""It's an effective medicine for gas.""",10,8-Nov-11,12,1,6
+57823,Acetaminophen / hydrocodone,Back Pain,"""Helpful.  """,8,19-Aug-12,16,1,2
+92670,Ondansetron,Gastroenteritis,"""Prevented a trip to the ER.""",10,31-Jan-11,30,1,6
+50765,Gabapentin,ibromyalgia,"""Side effect for me is headaches.""",4,19-Nov-08,51,1,6
+161092,Risperidone,Schizophrenia,"""Overall favorable experience since 04 for psychosis. """,10,1-Jan-13,8,1,8
 161025,Risperidone,Bipolar Disorde,"""It is good for mood stability""",10,20-Jun-15,16,1,6
-198111,Muse,Erectile Dysfunction,"""Extremely erect """,9,20-Feb-16,51,1,3
-133876,Sanctura,Urinary Incontinence,"""Bladder infections, inability to urinate.""",5,25-Sep-14,8,1,5
-141875,Escitalopram,Bipolar Disorde,"""Lexapro endlessly gave me the diarrhea.""",3,10-Jul-10,9,1,6
-156803,Dulaglutide,"Diabetes, Type 2","""To early to tell.""",7,15-Jun-15,4,1,4
-90960,Norco,Back Pain,"""Helpful.  """,8,19-Aug-12,16,1,2
-776,Silodosin,Benign Prostatic Hyperplasia,"""Joint pain after start of medicine""",4,30-Jun-15,1,1,6
-58361,Benazepril,High Blood Pressure,"""Cough and rash side effects annoying.""",4,31-May-09,30,1,6
-94754,Abilify,Major Depressive Disorde,"""Weight gain and fatigue.""",3,29-Jul-14,15,1,4
-89732,Celexa,Anxiety and Stress,"""Works for me.""",9,7-Nov-09,50,1,3
-221387,Dextromethorphan,Cough,"""Waste of money
-No relief at all""",1,23-Mar-17,1,1,7
-17175,Flexeril,Muscle Spasm,"""Makes my heart race due to anticholinergic effects""",2,13-Apr-10,30,1,8
-188178,Xtampza ER,Chronic Pain,"""This is incredibly overpriced garbage!""",1,22-Mar-17,18,1,5
-115837,Divalproex sodium,Mania,"""Very fast onset to terminate mania""",10,11-Oct-14,4,1,6
-2416,Metformin,"Diabetes, Type 2","""Nothing to say except fabulous.""",7,22-Jul-09,25,1,5
-201773,Alprazolam,Anxiety,"""It makes me mellow.""",9,8-Jun-08,62,1,4
-14324,Trusopt,"Glaucoma, Open Angle","""No side efects at all""",10,2-Aug-13,9,1,5
-189341,Oxycodone,Chronic Pain,"""The only side effect I've experienced is sleeplessness.""",9,23-May-13,60,1,8
-52387,Pantoprazole,Stomach Ulce,"""Works instant, better than any other meds""",10,1-Dec-14,13,1,7
-47955,Propulsid,GERD,"""This drug is no longer available in the United States.""",1,10-Mar-09,5,1,10
-91427,Anastrozole,Breast Cance,"""I took Arimidex for 5 years and I've been cancer free for over 6 years now.""",10,1-Feb-13,172,1,16
-60471,Pyridium,Dysuria,"""Skin of my body and foot become yellow, vomiting sensation, headache.""",7,23-Jan-12,16,1,11
-61057,Lidocaine,Anesthesia,"""I used this after having a tooth pulled - it caused nausea """,10,3-Apr-17,0,1,13
-57159,Zenpep,Chronic Pancreatitis,"""Zenpep works great for me, however the cost of the pills are ridiculous! """,10,3-Apr-12,48,1,14
-149913,Soma,Muscle Spasm,"""Love it, it helps ease my severe neck pain, haven't had any side effects yet.""",10,13-Jul-14,83,1,15
-134571,Ketorolac,Pain,"""Went to ER with a migraine and they  gave me torodol and a ""cocktail"" of other meds that did not work!!!""",1,12-Jan-16,11,1,21
-11993,Metaxalone,Muscle Spasm,"""It is great for muscle spasms and or pinched nerve.""",10,14-May-17,7,1,10
-167821,Keflex,Bladder Infection,"""Keflex treated my bladder infection successfully with no noticeable side effects, and was also very affordable.""",10,24-Nov-15,48,1,16
-202501,Lithium,Bipolar Disorde,"""Like it very well compared to other drugs I have taken.""",8,7-Sep-09,11,1,11
-87671,Lasix,Edema,"""Have only used Lasix a few days and have already noticed a big difference.""",7,9-Oct-08,81,1,14
-139892,Euflexxa,Osteoarthritis,"""Received 1st of three on 5/5/2014 no side effects, very little pain.""",10,6-May-14,31,1,12
-208464,Triamterene,Edema,"""I believe it work and control my fluid, and keep swelling  around ankle .I do have leg pain.""",8,26-Mar-15,3,1,18
-196552,Eszopiclone,Insomnia,"""It tastes bitter but goes away in the morning and isn't really bothersome because you are finally asleep.""",10,27-Jun-08,6,1,18
-147647,Alprazolam,Anxiety,"""If it is taken as your Doctor says then it is a really effective in treating anxiety.""",9,12-Jan-09,29,1,17
-158672,Methylphenidate,ADHD,"""The medicine is a life saver that increases ones quality of life immeasurably.""",10,11-Mar-11,14,1,13
-180937,Biaxin,Sinusitis,"""I had a bad sinus infection and it worked great...""",9,25-May-12,33,1,10
-18939,Solifenacin,Overactive Bladde,"""5mg is not effective  10mg is too strong   I would like a 7+mg tablet""",4,14-Apr-12,48,1,14
-124654,Irbesartan,High Blood Pressure,"""Controls blood pressure great, but having side effects like, constipation, gout, leg cramps, sleepiness, and general fatigue.""",8,24-Sep-14,79,1,17
-224024,Alfuzosin,Benign Prostatic Hyperplasia,"""Uroxatral helped my benign prostatic hyperplasia symptoms, but it made me extremely tired.""",3,18-Feb-13,46,1,13
-95982,Sertraline,Depression,"""I had no noticeable negative side effects, and was able to function in a normal way without feeling like it was forced.""",10,15-Apr-13,84,1,22
-220031,Amitriptyline,ibromyalgia,"""I find amatriptilene 50mg is helping me get a more refreshed sleep for my fibromyalgia and thus helping with pain issues....had fibro 30 plus years so its the best one I've had""",10,26-Jan-16,32,1,32
-51254,Azithromycin,Chlamydia Infection,"""I just took the 2 pills today after finding out I got this infectionv(please wear condoms) I haven't had anything yet as far aa symptoms fingers crossed !""",6,25-Feb-16,1,1,28
-232138,Crotamiton,Pruritus,"""Crotamiton cream is very effective for the pruritis of poison ivy and chiggers, and mosquito bites compared to the standard topicals used.""",10,31-Jul-09,2,1,22
-206614,Omeprazole / sodium bicarbonate,Duodenal Ulce,"""Doctor said to try this for heartburn its 1 pill per 24 hours... was quick to get rid of pain and acid taste wore off after 4 hours.""",1,26-Jun-17,1,1,28
-153833,Amoxicillin,Dental Abscess,"""Seeks to be working well, had 3 teeth extracted, and my dentist prescribed this medication due to the slight swelling prior to the extraction, which has gone done down considerably, along with the major pain and pressure that accompanied it before.""",10,15-Mar-14,67,1,41
-72543,Tramadol,Pain,"""I found this drug pretty good for pain, but that came with some anxiety which I had to take Valium to help with that.""",7,14-Nov-09,5,1,24
-190820,Lupron,Prostate Cance,"""Been on this drug 15 months  No libido at all day  sweats night sweats and hot flashes  irritability and erratic memory episodes
-
-PSA from 30 to .01 after radiation and continues today""",5,16-Jun-16,41,1,32
-148298,Norethindrone,Abnormal Uterine Bleeding,"""I took this for 3 months following pregnancy and it was great at leveling my mood, and allowed me to lose weight, but was not very helpful in controlling my periods.""",5,5-Aug-10,36,1,31
-71607,Tramadol,Pain,"""Both my boyfriend and I have taken this after a car accident and it does nothing for pain and gave him withdrawals and gave both of us disturbing nightmares.""",1,18-Jun-17,8,1,29
-182842,Cymbalta,Anxiety,"""I'm on cymbalta 30mg for my anxiety and depression and I have been on it for a month I have no side effects but nausea and being tired but that all went away in about 2 weeks but great meds works great for me""",10,9-Jan-17,36,1,44
-63950,Sertraline,Obsessive Compulsive Disorde,"""I previously gave this a 10. l said it changed my life but since moving cities my anxiety has gotten so bad and OCD has gotten worse - not sure if it pooped out or just circumstances or need to change meds...frustrating""",6,18-Jul-17,6,1,42
-65713,Propranolol,mance Anxiety,"""I've found these to be very effective in stopping my panic attacks & feelings of anxiety, however I've felt quite tired, generally lacking a level of energy, so think I might cut down from 3 x a day to 2, but overall good :)""",9,17-Sep-16,4,1,44
-40232,Savella,ibromyalgia,"""Did not work for me,the stomach nausea was to much as I already had severe nausea issues, there might have been initially feeling of energy,but it didnt seem to last.I took it for three weeks, not good enough to continue a drug like this.""",3,16-Jun-16,19,1,44
-32757,Budesonide / formoterol,moterol),"""Helps with maintenance and if I forget to take it, it usually starts working relatively quickly after I have taken my normal dosage.""",10,19-Jul-10,16,1,23
-112142,Gabapentin,Diabetic Peripheral Neuropathy,"""Fell out of bed 3 times  while taking this medication lucky my husband was Home to help me back to bed dizzy and confused""",3,20-Mar-17,6,1,24
-212008,Lamotrigine,Seizure Prevention,"""My husband began taking this about 20 years ago after being on Dilantin for 6 years, when he was on Dilantin, he had horrible side effects and still had seizures...To us this is a miracle drug...not a seizure since beginning it!""",10,5-Aug-15,6,1,41
-153709,Amoxicillin,Urinary Tract Infection,"""I took Amoxicillin and Potassium Clevolunate as per Doctor's prescription and my symptoms of backpain and fever felling diminished within two hours.""",9,26-Oct-17,3,1,22
+184867,Cleocin,Skin or Soft Tissue Infection,"""vomiting, mild skin rash, nausea, fever""",3,23-Feb-17,1,1,6
+46134,Rabeprazole,GERD,"""Worked great.""",10,24-Oct-14,10,1,2
+216738,Rosuvastatin,"High Cholesterol, Familial Heterozygous","""Works as should.""",10,19-Feb-17,2,1,3
+58896,Artane,Extrapyramidal Reaction,"""Relieved muscle spasms caused by risperidone.""",10,13-Nov-13,8,1,6
+51668,Azithromycin,Bacterial Infection,"""Bronchitis - Worked fast.""",10,29-Oct-13,8,1,4
+1114,Metronidazole,Bacterial Vaginitis,"""Works well.""",9,13-Aug-09,25,1,2
+58095,Acetaminophen / hydrocodone,Pain,"""Helped with the pain from an animal bite""",9,1-Sep-09,3,1,8
+150952,Sulfamethoxazole / trimethoprim,Prostatitis,"""Didn't work""",1,28-Oct-09,16,1,2
+217147,Oxcarbazepine,Bipolar Disorde,"""Feel great along with other medicines.""",8,13-Aug-09,11,1,6
+213225,Nuvigil,Narcolepsy,"""Love it.""",9,4-May-12,9,1,2
+189308,Oxycodone,Pain,"""Works well for my condition.""",5,3-Jul-15,20,1,5
+103714,Dexedrine,"Sexual Dysfunction, SSRI Induced","""Helps with desire and libido, not the impotence and anorgasmia.""",9,21-Feb-09,103,1,10
+41122,Acetaminophen / oxycodone,Pain,"""I personally recommend this for minor to severe treatment of back pain.""",8,16-Oct-11,1,1,12
+112734,Exforge,High Blood Pressure,"""I've been using 5/160 for 3 months and so far they've worked for my high blood pressure with no side effects.""",9,15-Nov-09,23,1,21
+203456,Indomethacin,"Gout, Acute","""Gives good relief but gives stomach pains side effect and paranoia side effect if taken more than 3 days""",4,19-Dec-09,36,1,19
+163267,Acetaminophen / dichloralphenazone / isometheptene mucate,Headache,"""I used this for tension-type headaches and it didn't help.""",1,25-Nov-09,1,1,10
+58276,Ciprofloxacin / dexamethasone,Otitis Media,"""This medicine really helped my son during his severe infections.""",9,23-Apr-09,15,1,10
+164303,Diclofenac,Rheumatoid Arthritis,"""I found no relief from using this product for osteo arthritis""",2,12-Sep-17,2,1,11
+212422,Trospium,Overactive Bladde,"""Works great but no more coverage for this medicine, can't afford it.""",8,4-Sep-12,18,1,12
+132432,Ativan,Anxiety,"""Ativan helps when I start feeling panicky and to rest easier when I find it hard to relax.""",10,28-Nov-08,60,1,18
+147649,Alprazolam,Anxiety,"""I found Xanax to be the only thing to help me.""",7,14-May-09,36,1,11
+27415,Requip,Restless Legs Syndrome,"""The very first night I started Requip, I vomited violently all night.""",1,2-Jul-15,22,1,12
+57826,Acetaminophen / hydrocodone,Pain,"""Upset stomach most of the time, minimal pain control, just not effective for me.""",6,8-Aug-12,19,1,14
+105206,Carbamazepine,Bipolar Disorde,"""Best drug for bipolar if you can pass initial side effects.""",10,10-May-17,7,1,11
+4191,Codeine,Cough,"""I took this medication in liquid form, when I had strep throat, and it was very helpful in reducing painful coughs.""",8,30-Aug-08,16,1,21
+42019,Simcor,High Cholesterol,"""I experienced immediate results with lower cholesterol and lower triglicerides, NO side effects whatsoever.""",10,28-Jul-09,8,1,14
+100339,Desogestrel / ethinyl estradiol,Birth Control,"""I definitely notice a decreased libido, as well as mood swings, but nothing that can't be handled.""",8,26-Sep-16,1,1,17
+34094,Zoledronic acid,Osteoporosis,"""Should very careful if suffering from Osteonecrosis of Jaw, and avoid in pregnancy.""",6,9-Jan-12,43,1,13
+5486,Sovaldi,Hepatitis C,"""I got this medicine last month, and am now start to getting good results.""",9,11-Jan-16,9,1,14
+39524,Contrave,Obesity,"""I love the medicine but I can't continue with it due to it making my blood pressure go sky high""",5,13-May-16,16,1,20
+23723,Hycodan,Cough,"""This cough medicine is AWESOME for the nagging cough that comes with bronchitis.  """,10,20-Apr-12,19,1,14
+113005,Bisacodyl,Constipation,"""Oh my god this terrible tablet but it works well you will get squat out everything but be ready for cramp pain for 10 mins""",6,9-Nov-16,6,1,25
+194370,Crestor,High Cholesterol,"""5mg, tinnitus is aggravated quite severely, joint pain in toe joints, mild depression, slight nausea and occasional insomnia - 3 weeks usage""",6,19-Jun-17,17,1,22
+56954,Ranitidine,Indigestion,"""Gas, bloating, nausea, spitting up froth, feeling of tightness in the chest, extreme debilitating pain in waves in left shoulder radiating into left shoulder blade, pain in lower back, chills, runny nose""",3,7-Sep-16,4,1,32
+229718,Lurasidone,Schizoaffective Disorde,"""Though I still sense some of depersonalization and a few hallucinations from time to time I am grateful that this medicine has improved my overall sense of well-being, most notably a return to being interested in the things I care about!""",8,26-Sep-12,26,1,41
+217954,Teriparatide,Osteoporosis,"""6 months on forteo, kypoplasty every 6 weeks for 5 months, male 58 yrs old, only side effect stomach grew from 32 inch waist to 36 inch waist and climbing, back vertebrae breaks slowing down so forteo doing its job successfully!""",8,6-Nov-17,0,1,41
+38288,Rydapt,Systemic Mastocytosis,"""We have been in a single clinical trial and it has improved the quality of life by 50 % in the last 6 months , after having systemic mastocytosis (smc) for 20 years.""",8,19-May-17,2,1,33
+100352,Desogestrel / ethinyl estradiol,Birth Control,"""I have had no side effects since being on Apri, which I switched to from a similar kind that wasn't covered by insurance.""",9,22-Aug-16,3,1,23
+12290,PEG-3350 with Electolytes,Bowel Preparation,"""My first glass was a shocker kind of salty but after that it was it was okay.It did the job if you know what I mean.""",10,26-Feb-14,8,1,26
+31144,Miconazole,Vaginal Yeast Infection,"""Yes this is a great form of torture: After 3 weeks of failed attempts to get an answer, tried waterboarding, electrocution, the works, I used this and got the confession I needed.""",10,18-Nov-16,20,1,32
+100940,Orlistat,Obesity,"""After taking Orlistat for one month eating sensibily, no junk, plenty of fruit hardly any exercise because of my disability I am overjoyed and ecstatic to have lost 10 pounds.""",10,17-Feb-12,52,1,30
+146671,Ortho-Novum 7 / 7 / 7,Endometriosis,"""I was experiencing quite a bit of nausea and breast discharge at first, but then I started to lose my hair and it never stopped!! """,5,18-Jan-16,1,1,26
 45033,Fluoxetine,Anxiety and Stress,"""This medication makes me worthless man, I feel sick when I take this drug, very sick thinking, Muscle pain, suicidal thoughts sometimes, Please stop taking this drugs, if feel you feel any of these symptoms""",1,31-Jan-17,8,1,35
-72532,Tramadol,,"""ultram is the only drug ive had that relieved my pain without side effects
-i never require increase of dosage which suits me ...i dont want to be sleep
-ly at work so its great for that too""",10,22-Feb-10,21,1,38
+132079,Tacrolimus,"Organ Transplant, Rejection Prophylaxis","""Started taking Prograf in July of 2011 for my heart transplant, except for some slight itching and for a little fluid in my ankles, this drug has worked wonders. """,10,21-Dec-11,12,1,30
+3756,Fioricet,Headache,"""They are great for headaches which is why I am prescribed them,  and I also take mine for menstrual cramps and they work wonders""",9,31-Jan-17,10,1,24
+221804,Methamphetamine,ADHD,"""Truly works great but cannot afford the brand name only generic and yes I'm a bit shy/embarrassed about it so far so good.""",9,18-Oct-10,12,1,23
+136436,Mirvaso,Rosacea,"""This cream is not perfect by any means, but it is the only cream that has significantly reduce my redness within a short time.""",10,27-Mar-15,30,1,24
+13572,Amphetamine / dextroamphetamine,atigue,"""When I took them I was extremely tired from working all night and day.. doing a double shift and I took one 30mg pill and I was wide awake in about no more that 15 minutes..""",10,14-Jan-12,27,1,36
+78766,OnabotulinumtoxinA,Overactive Bladde,"""Tried Botox yesterday changed my life today, no more frequency or urgency and no more PAIN... i was urinating every 1-2 hours and now I am back to normal .""",9,22-Sep-15,63,1,30
+201326,Zoloft,Major Depressive Disorde,"""I've been on zoloft for since October  29th so about 3 months and I'm not as suicidal but the depression hasn't really gone away (I'm on 50mgs so maybe it's just talking longer  to set in""",5,6-Feb-16,6,1,36
+24763,Desonide,Eczema,"""Works great if used several days in a row on the affected area, a couple times per day should suffice, just keep the area moisturized.""",7,20-Mar-08,17,1,25
