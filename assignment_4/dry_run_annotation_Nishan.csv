@@ -1,5 +1,4 @@
 uniqueID,emotion,experiencer,cue,target,stimulus
-,,,,,
 70296,joy,reviewer,Thankfully,this,
 79603,joy,reviewer,great,They,immediate relief
 41056,sadness,reviewer,do not help,They,make back pain worse
@@ -10,7 +9,6 @@ uniqueID,emotion,experiencer,cue,target,stimulus
 138509,anticipation,reviewer,so far so good,,
 111721,joy,reviewer,Awesome,,
 196220,fear,reviewer,terrifying,the diarrhea,
-,,,,,
 157360,joy,reviewer,works great,It,
 15772,sadness,reviewer,gain 30 pounds,it,
 221463,disgust,reviewer,had,this,severe diarrhea
@@ -31,7 +29,6 @@ uniqueID,emotion,experiencer,cue,target,stimulus
 217147,joy,reviewer,Feel great,,along with other medicines
 213225,joy,reviewer,Love it,,
 189308,joy,reviewer,Works well,,my condition
-,,,,,
 103714,joy,reviewer,Helps,,desire and libido
 41122,trust,reviewer,personally recommend,this,minor to severe treatment of back pain
 112734,trust,reviewer,worked,they,high blood pressure with no side effects
@@ -52,7 +49,6 @@ uniqueID,emotion,experiencer,cue,target,stimulus
 5486,joy,reviewer,getting good results,this medicine,got
 39524,anticipation,reviewer,can't continue,the medicine,blood pressure go sky high
 23723,joy,reviewer,AWESOME,this cough medicine,bronchitis
-,,,,,
 113005,anger,reviewer,terrible,tablet,cramp pain for 10 mins
 194370,anger,reviewer,aggravated,5mg tinnitus,joint pain in toe joints
 56954,fear,reviewer,extreme debilitating pain,,
